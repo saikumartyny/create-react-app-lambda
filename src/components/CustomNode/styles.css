@@ -1,0 +1,68 @@
+.node {
+  width: 250px;
+  height: 150px;
+  border: 2px solid #27b921;
+  border-radius: 17px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.delete-btn {
+  height: 60px;
+  width: 180px;
+  border-radius: 8px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.node-img {
+  height: 80px;
+  width: 80px;
+}
+
+.text {
+  font: normal normal 600 15px Roboto;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+input {
+  height: 60px;
+  width: 180px;
+  font-size: 30px;
+}
+
+.options {
+  width: 360px;
+  height: 155px;
+  position: absolute;
+  left: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  gap: 10px;
+}
+
+.top-node {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  top: -4%;
+  transform: rotate(-45deg);
+}
+
+.bottom-node {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  bottom: -4%;
+  transform: rotate(-45deg);
+}
